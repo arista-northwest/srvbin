@@ -81,7 +81,7 @@ func (t *TCPServer) handleConnection(conn net.Conn) {
 }
 
 func main() {
-	server, err := NewServer(":1123")
+	server, err := NewServer(":50002")
 	if err != nil {
 		log.Println("error starting TCP server")
 		return

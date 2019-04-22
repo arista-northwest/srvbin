@@ -9,7 +9,7 @@ import (
 
 var (
 	server Server
-	addr   string = ":1123"
+	addr   string = ":50002"
 )
 
 func init() {
